@@ -1,11 +1,9 @@
-/* From the :root element you can easily change the colors of the design, its size and so on. */
-:root {
 
-  /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
-  --font_family: 'Red Hat Display', sans-serif;
+
+:root {
   --font_size: 16px;
 
-  --background_color: #483D8B;
+  --background_color: #000;
 
   --image_border_color: #1f232e;
   --image_border_px: 3px;
@@ -37,9 +35,11 @@
 }
 
 
+
 body {
-  font: var(--font_size) var(--font_family);
-  font-weight: 300;
+  font: var(--font_size);
+  font-family: 'Inter';
+  font-weight: 400;
   line-height: 1.5;
   background: var(--background_color) var(--background_image) no-repeat center;
   min-height: 100vh;
