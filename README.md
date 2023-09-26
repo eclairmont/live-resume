@@ -2,4 +2,4 @@
 ---
 This repo is for hosting my resume on github pages 
 
-The **live** branch is for code that is deployed.
+The **dev** branch is for code that is deployed.
